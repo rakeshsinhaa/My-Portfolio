@@ -5,18 +5,18 @@ import { GraduationCap, School, BookOpen } from 'lucide-react';
 export default function Education() {
   const education = [
     {
-      icon: School,
-      title: 'Higher Secondary School',
-      institution: 'ST. Michael Higher Secondary School, Kanker (CG)',
-      year: '2020-21',
-      description: 'Graduated with honors in Mathematics',
-    },
-    {
       icon: GraduationCap,
       title: 'Bachelor\'s Degree',
       institution: 'Rungta College of Engineering and Technology, Bhilai (CG) ',
       year: '2022-2026',
       description: 'B.Tech in Computer Science Core Development',
+    },
+    {
+      icon: School,
+      title: 'Higher Secondary School',
+      institution: 'ST. Michael Higher Secondary School, Kanker (CG)',
+      year: '2020-21',
+      description: 'Graduated with honors in Mathematics',
     },
     {
       icon: BookOpen,
