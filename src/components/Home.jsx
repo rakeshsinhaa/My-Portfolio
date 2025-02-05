@@ -1,12 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
-import { Github, Linkedin, Mail, Code2 } from 'lucide-react';
+import { Github, Linkedin, Mail, FileText } from 'lucide-react';
 
 export default function Home() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-[#020d1f] relative overflow-hidden">
-      {/* Animated background elements */}
+    <section id="home" className="min-h-screen flex items-center justify-center bbg-[#020d1f] py-20 relative overflow-hidden">
+      {/* Animated background elements */} 
       <div className="absolute inset-0 opacity-10">
         <div className="absolute w-full h-full">
           {[...Array(20)].map((_, i) => (
@@ -36,14 +36,8 @@ export default function Home() {
           <div className="relative w-40 h-40 mx-auto">
             <motion.div
               className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600"
-              animate={{
-                rotate: [0, 360],
-              }}
-              transition={{
-                duration: 8,
-                repeat: Infinity,
-                ease: "linear",
-              }}
+              animate={{ rotate: [0, 360] }}
+              transition={{ duration: 8, repeat: Infinity, ease: 'linear' }}
             />
             <img
               src="profile.jpg"
@@ -65,13 +59,13 @@ export default function Home() {
         <div className="text-2xl md:text-3xl text-cyan-300 mb-8 h-[40px] font-light">
           <TypeAnimation
             sequence={[
-              "Full-Stack Developer",
+              'Full-Stack Developer',
               2000,
-              "Crafting Clean Code",
+              'Crafting Clean Code',
               2000,
-              "App Developer",
+              'App Developer',
               2000,
-              "Creating Innovative Solutions",
+              'Creating Innovative Solutions',
               2000,
             ]}
             repeat={Infinity}
@@ -79,29 +73,44 @@ export default function Home() {
           />
         </div>
 
+        {/* Social Icons and Resume Button */}
         <motion.div
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="flex justify-center space-x-6"
+          className="flex flex-col items-center gap-8"
         >
-          {[
-            { Icon: Github, href: 'https://github.com/rakeshsinhaa', color: 'from-cyan-400 to-cyan-400' },
-            { Icon: Linkedin, href: 'https://www.linkedin.com/in/rakeshsinhaa', color: 'from-cyan-400 to-cyan-500' },
-            { Icon: Mail, href: 'mailto:sinharakesh078@gmail.com', color: 'from-cyan-500 to-cyan-500' },
-            { Icon: Code2, href: '#projects', color: 'from-cyan-500 to-cyan-400' },
-          ].map(({ Icon, href, color }, index) => (
-            <motion.a
-              key={index}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              whileHover={{ scale: 1.2, rotate: 5 }}
-              className={`w-14 h-14 rounded-xl glass-effect flex items-center justify-center bg-gradient-to-r ${color} hover:shadow-lg hover:shadow-cyan-500/20 transition-all duration-300`}
-            >
-              <Icon size={24} className="text-white" />
-            </motion.a>
-          ))}
+          <div className="flex justify-center gap-6">
+            {[
+              { Icon: Github, href: 'https://github.com/rakeshsinhaa' },
+              { Icon: Linkedin, href: 'https://www.linkedin.com/in/rakeshsinhaa' },
+              { Icon: Mail, href: 'mailto:sinharakesh078@gmail.com' },
+            ].map(({ Icon, href }, index) => (
+              <motion.a
+                key={index}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                className="w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center hover:bg-blue-500/20 transition-colors"
+              >
+                <Icon size={24} className="text-blue-300" />
+              </motion.a>
+            ))}
+          </div>
+
+          <motion.a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="flex items-center gap-2 px-8 py-3 bg-blue-500/10 rounded-lg hover:bg-blue-500/20 transition-colors"
+          >
+            <FileText size={20} className="text-blue-300" />
+            <span className="text-blue-300 font-semibold">Resume</span>
+          </motion.a>
         </motion.div>
       </div>
     </section>
