@@ -101,7 +101,7 @@ export default function Home() {
           </div>
 
           <motion.a
-            href="/resume.pdf"
+            href="https://drive.google.com/drive/u/0/my-drive"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
