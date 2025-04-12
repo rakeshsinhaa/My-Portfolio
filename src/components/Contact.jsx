@@ -9,7 +9,7 @@ export default function Contact() {
       icon: Mail,
       items: [
         { icon: Mail, text: 'sinharakesh078@gmail.com', link: 'mailto:sinharakesh078@gmail.com' },
-        { icon: Phone, text: '+91 9329953980' }
+        // { icon: Phone, text: '+91 9329953980' }
       ]
     },
     {

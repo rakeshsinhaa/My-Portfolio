@@ -71,10 +71,10 @@ export default function About() {
                 <span className="text-cyan-400">Email:</span>
                 <span className="text-gray-300">sinharakesh078@gmail.com</span>
               </p>
-              <p className="flex items-center gap-2">
+              {/* <p className="flex items-center gap-2">
                 <span className="text-cyan-400">Phone:</span>
                 <span className="text-gray-300"> +91 9329953980</span>
-              </p>
+              </p> */}
             </div>
           </motion.div>
 
