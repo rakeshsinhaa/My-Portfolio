@@ -15,10 +15,11 @@ export default function Skills() {
       { name: 'Node.js', gif: 'https://media.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif' },
       { name: 'Python', gif: 'https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif' },
       { name: 'MongoDB', gif: 'https://media.giphy.com/media/tAjb5pyCEBhEb8jWxC/giphy.gif' },
-      // { name: 'PostgreSQL', gif: 'https://media.giphy.com/media/vISmwpBJUNYzukTnVx/giphy.gif' }
+      { name: 'SQL', gif: 'https://media.giphy.com/media/vISmwpBJUNYzukTnVx/giphy.gif' }
     ],
     tools: [
       { name: 'Git', gif: 'https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif' },
+      { name: 'Firebase', gif: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHNqMXd6Z3l3YW8zbDl3MjhjZTZodmhzYWhqeWZzeTVidW90YnRqMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gjUmTXbknegMh6VO2z/giphy.gif' },
       // { name: 'Docker', gif: 'https://media.giphy.com/media/lcG3qwtTKSNI2i5vst/giphy.gif' },
       { name: 'VS Code', gif: 'https://media.giphy.com/media/SS8CV2rQdlYNLtBCiF/giphy.gif' },
       // { name: 'AWS', gif: 'https://media.giphy.com/media/YN6LN8wDkTSBq/giphy.gif' }
