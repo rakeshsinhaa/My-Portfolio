@@ -34,7 +34,7 @@ export default function Education() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-4xl font-bold text-center mb-12 text-white"
+          className="text-4xl font-bold text-center mb-12 text-cyan-400"
         >
           Education
         </motion.h2>
@@ -50,7 +50,8 @@ export default function Education() {
               className="bg-white/10 backdrop-blur-lg rounded-lg p-6 text-white border border-cyan-500/20 hover:border-cyan-500 transition-all group"
             >
               <item.icon className="w-12 h-12 mb-4 text-cyan-400 group-hover:text-cyan-300 transition-colors" />
-              <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+              <motion.h3 c
+              lassName="text-xl font-bold mb-2">{item.title}</motion.h3>
               <p className="text-cyan-300 mb-2">{item.institution}</p>
               <p className="text-gray-400 mb-4">{item.year}</p>
               <p className="text-gray-300">{item.description}</p>
