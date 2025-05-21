@@ -63,8 +63,8 @@ export default function Home() {
               2000,
               'Crafting Clean Code',
               2000,
-              'App Developer',
-              2000,
+              // 'App Developer',
+              // 2000,
               'Creating Innovative Solutions',
               2000,
             ]}

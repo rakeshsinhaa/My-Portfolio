@@ -57,7 +57,7 @@ export default function Navbar() {
         <div className="flex justify-center">
           <motion.div
             whileHover={{ scale: 1.1 }}
-            className="text-2xl font-bold text-white font-mono mr-32"
+            className="text-2xl whitespace-nowrap md:mr-32 text-center md:text-lefttext-2xl font-bold text-white font-mono mr-32"
           >
             Rakesh Sinha
           </motion.div>

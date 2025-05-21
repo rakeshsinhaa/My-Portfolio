@@ -7,13 +7,13 @@ export default function Projects() {
 
   const projects = [
     {
-      title: 'E-commerce Platform',
-      description: 'A full-featured e-commerce platform with cart and payment integration',
-      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop',
+      title: 'Smart Doctor Appointment System',
+      description: 'A full-featured smart, efficient platform for booking and managing doctor appointments online',
+      image: '/Appointment.jpg',
       technologies: ['React', 'Node.js', 'MongoDB'],
-      github: 'https://github.com',
-      demo: 'https://example.com',
-      fullDescription: 'An advanced e-commerce platform built with React and Node.js. Features include user authentication, product management, shopping cart, and payment processing.',
+      github: 'https://github.com/rakeshsinhaa/Smart-Doctor-Appointment',
+      // demo: 'https://example.com',
+      fullDescription: 'An advanced healthcare platform built with React and Node.js. Features include user authentication, doctor management, appointment booking, and real-time notifications.',
     },
     {
       title: 'Task Management App',
