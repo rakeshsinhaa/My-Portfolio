@@ -9,7 +9,7 @@ export default function Projects() {
     {
       title: 'Smart Doctor Appointment System',
       description: 'A full-featured smart, efficient platform for booking and managing doctor appointments online',
-      image: '/appointment.jpg',
+      image: '/doctor.jpg',
       technologies: ['React.js', 'TypeScript', 'Node.js', 'MongoDB'],
       github: 'https://github.com/rakeshsinhaa/Smart-Doctor-Appointment',
       demo: 'https://example.com',
