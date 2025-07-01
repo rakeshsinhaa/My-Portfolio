@@ -9,20 +9,20 @@ export default function Projects() {
     {
       title: 'Smart Doctor Appointment System',
       description: 'A full-featured smart, efficient platform for booking and managing doctor appointments online',
-      image: '/Appointment.jpg',
-      technologies: ['React', 'Node.js', 'MongoDB'],
+      image: '/appointment.jpg',
+      technologies: ['React.js', 'TypeScript', 'Node.js', 'MongoDB'],
       github: 'https://github.com/rakeshsinhaa/Smart-Doctor-Appointment',
-      // demo: 'https://example.com',
+      demo: 'https://example.com',
       fullDescription: 'An advanced healthcare platform built with React and Node.js. Features include user authentication, doctor management, appointment booking, and real-time notifications.',
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative task management application',
-      image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=600&fit=crop',
-      technologies: ['Vue.js', 'Express', 'PostgreSQL'],
-      github: 'https://github.com',
+      title: 'Script Story',
+      description: 'AI-powered web page that generates full scripts and visuals from basic story ideas.',
+      image: '/story-script.jpg',
+      technologies: ['React.js', 'Python', 'FastAPI'],
+      github: 'https://github.com/rakeshsinhaa/Script-Project',
       demo: 'https://example.com',
-      fullDescription: 'A comprehensive task management solution that helps teams organize and track their projects efficiently. Includes real-time updates and team collaboration features.',
+      fullDescription: 'An AI-powered web application that converts basic story ideas into detailed scripts and visuals, helping creators quickly develop stories and concepts efficiently.',
     },
     {
       title: 'Weather Dashboard',
@@ -47,7 +47,7 @@ export default function Projects() {
           Projects
         </motion.h2>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3  gap-8">
           {projects.map((project, index) => (
             <motion.div
               key={index}

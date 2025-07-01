@@ -5,8 +5,8 @@ import { Code, Database, Palette } from 'lucide-react';
 export default function About() {
   const interests = [
     { icon: Code, title: 'Full-Stack Devloment', description: 'Full-stack development with modern technologies' },
-    { icon: Database, title: 'App Developer', description: 'Creating innovative apps for seamless user experiences and business solutions' },
-    { icon: Palette, title: 'UI/UX Design', description: 'Creating beautiful and intuitive user interfaces' },
+    { icon: Database, title: 'Data Structures & Algorithms', description: 'Sharpening problem-solving skills through DSA' },
+    { icon: Palette, title: 'Learning by Building', description: 'I love turning ideas into projects ' },
   ];
 
   return (

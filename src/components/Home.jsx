@@ -101,7 +101,7 @@ export default function Home() {
           </div>
 
           <motion.a
-            href="https://drive.google.com/drive/u/0/my-drive"
+            href="https://drive.google.com/file/d/1HMaaGxfnOnsl0-9zuBfdWrm1AU0oOPao/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
