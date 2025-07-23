@@ -63,8 +63,8 @@ export default function Home() {
               2000,
               'Crafting Clean Code',
               2000,
-              // 'App Developer',
-              // 2000,
+              'AI Enthusiast',
+              2000,
               'Creating Innovative Solutions',
               2000,
             ]}
@@ -101,7 +101,7 @@ export default function Home() {
           </div>
 
           <motion.a
-            href="https://drive.google.com/file/d/1HMaaGxfnOnsl0-9zuBfdWrm1AU0oOPao/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1k8-681ncS3FL4lqYsljF9_CvSOR1_WkT/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}

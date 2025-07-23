@@ -22,7 +22,6 @@ export default function Education() {
       icon: BookOpen,
       title: 'Online Certifications',
       institution: 'Various Platforms',
-      year: '2013-Present',
       description: 'Continuous learning through online courses and certifications',
     },
   ];
