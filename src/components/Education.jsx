@@ -18,17 +18,11 @@ export default function Education() {
       year: '2020-21',
       description: 'Graduated with honors in Mathematics',
     },
-    {
-      icon: BookOpen,
-      title: 'Online Certifications',
-      institution: 'Various Platforms',
-      description: 'Continuous learning through online courses and certifications',
-    },
   ];
 
   return (
-    <section id="education" className="min-h-screen bbg-[#020d1f] py-20">
-      <div className="container mx-auto px-4 pt-16">
+    <section id="education" className=" bg-[#020d1f] py-12">
+      <div className="container mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -38,7 +32,8 @@ export default function Education() {
           Education
         </motion.h2>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="px-6 md:px-12 py-5">
+          <div className="grid md:grid-cols-2 gap-8">
           {education.map((item, index) => (
             <motion.div
               key={index}
@@ -49,13 +44,14 @@ export default function Education() {
               className="bg-white/10 backdrop-blur-lg rounded-lg p-6 text-white border border-cyan-500/20 hover:border-cyan-500 transition-all group"
             >
               <item.icon className="w-12 h-12 mb-4 text-cyan-400 group-hover:text-cyan-300 transition-colors" />
-              <motion.h3 c
-              lassName="text-xl font-bold mb-2">{item.title}</motion.h3>
+              <motion.h3
+                className="text-xl font-bold mb-2">{item.title}</motion.h3>
               <p className="text-cyan-300 mb-2">{item.institution}</p>
               <p className="text-gray-400 mb-4">{item.year}</p>
               <p className="text-gray-300">{item.description}</p>
             </motion.div>
           ))}
+        </div>
         </div>
       </div>
     </section>

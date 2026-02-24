@@ -5,7 +5,7 @@ import { Github, Linkedin, Mail, FileText } from 'lucide-react';
 
 export default function Home() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bbg-[#020d1f] py-20 relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-[#020d1f] py-20 relative overflow-hidden">
       {/* Animated background elements */} 
       <div className="absolute inset-0 opacity-10">
         <div className="absolute w-full h-full">
@@ -101,7 +101,7 @@ export default function Home() {
           </div>
 
           <motion.a
-            href="https://drive.google.com/file/d/1k8-681ncS3FL4lqYsljF9_CvSOR1_WkT/view?usp=sharing"
+            href="https://drive.google.com/file/d/1YtUMEK3GuyQIBTqDjLKPUMOikcWX06NP/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}

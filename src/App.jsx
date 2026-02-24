@@ -8,6 +8,7 @@ import Education from './components/Education';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Certificates from './components/Certificates';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
         <Education />
         {/* <Experience /> */}
         <Projects />
+        <Certificates/>
         <Skills />
         <Contact />
       </motion.div>

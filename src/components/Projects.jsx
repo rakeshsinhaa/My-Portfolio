@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Github, ExternalLink, X } from 'lucide-react';
+import doctorImg from '../assets/doctor.jpg';
 
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -9,7 +10,7 @@ export default function Projects() {
     {
       title: 'Smart Doctor Appointment System',
       description: 'A full-featured smart, efficient platform for booking and managing doctor appointments online',
-      image: '/doctor.jpg',
+      image: doctorImg,
       technologies: ['React.js', 'TypeScript', 'Node.js', 'MongoDB'],
       github: 'https://github.com/rakeshsinhaa/Smart-Doctor-Appointment',
       demo: 'https://example.com',
@@ -25,18 +26,18 @@ export default function Projects() {
       fullDescription: 'An AI-powered web application that converts basic story ideas into detailed scripts and visuals, helping creators quickly develop stories and concepts efficiently.',
     },
     {
-      title: '',
-      description: '',
-      image: 'https://images.unsplash.com/photo-1557682250-33bd709cbe85?w=800&h=600&fit=crop',
-      technologies: [],
-      github: '',
-      demo: '',
-      fullDescription: '',
+      title: 'Pet Adoption & Donation',
+      description: 'A unified platform where users can adopt pets, surrender (donate) pets, and post new pet listings with ease.',
+      image: '/WhatsApp Image 2026-02-13 at 2.31.33 PM.jpeg',
+      technologies: [ 'React.js', 'MongoDB', 'Express.js', 'FastAPI'],
+      github: 'https://github.com/rakeshsinhaa/Pet-Adoption-System',
+      demo: 'https://example.com',
+      fullDescription: 'Full-stack system that enables users to browse pets, learn about their needs, and submit adoption requests. Integrated Gemini AI to help adopters understand pet requirements, behavior, and care instructions for better decision-making ',
     },
   ];
 
   return (
-    <section id="projects" className="min-h-screen bbg-[#020d1f] py-20">
+    <section id="projects" className="min-h-screen bg-[#020d1f] py-20">
       <div className="container mx-auto px-4 pt-16">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
