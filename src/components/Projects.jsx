@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Github, ExternalLink, X } from 'lucide-react';
-import doctorImg from '../assets/doctor.jpg';
 
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -10,7 +9,7 @@ export default function Projects() {
     {
       title: 'Smart Doctor Appointment System',
       description: 'A full-featured smart, efficient platform for booking and managing doctor appointments online',
-      image: doctorImg,
+      image: "/doctor.jpg",
       technologies: ['React.js', 'TypeScript', 'Node.js', 'MongoDB'],
       github: 'https://github.com/rakeshsinhaa/Smart-Doctor-Appointment',
       demo: 'https://example.com',
@@ -19,7 +18,7 @@ export default function Projects() {
     {
       title: 'Script Story',
       description: 'AI-powered web page that generates full scripts and visuals from basic story ideas.',
-      image: '/story-script.jpg',
+      image: "/story-script.jpg",
       technologies: ['React.js', 'Python', 'FastAPI'],
       github: 'https://github.com/rakeshsinhaa/Script-Project',
       demo: 'https://script-story.vercel.app/',
@@ -28,7 +27,7 @@ export default function Projects() {
     {
       title: 'Pet Adoption & Donation',
       description: 'A unified platform where users can adopt pets, surrender (donate) pets, and post new pet listings with ease.',
-      image: '/WhatsApp Image 2026-02-13 at 2.31.33 PM.jpeg',
+      image: '/pet.jpg',
       technologies: [ 'React.js', 'MongoDB', 'Express.js', 'FastAPI'],
       github: 'https://github.com/rakeshsinhaa/Pet-Adoption-System',
       demo: 'https://example.com',
